@@ -41,7 +41,7 @@ export const WalletCard = () => {
 
 
     return (
-        <Box h={80}>
+        <Box h='100vh' mt={20}>
             <Button leftIcon={<DownloadIcon />} onClick={connectWallet} w={80}>
                 {connectButtonText}
             </Button>
