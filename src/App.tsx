@@ -1,6 +1,9 @@
 import React, { FC } from "react"
 import { ChakraProvider, Box, Grid, theme, } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
+import { WalletCard } from "./components/WalletCard";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 
 
 export const App:FC = () => (
@@ -8,7 +11,8 @@ export const App:FC = () => (
     <Box textAlign="center" fontSize="xl">
       <Grid minH="20vh" p={3}>
         <ColorModeSwitcher justifySelf="flex-end" />        
-          Web3.0        
+        <WalletCard/>     
+        <ToastContainer/>
       </Grid>
     </Box>
   </ChakraProvider>
