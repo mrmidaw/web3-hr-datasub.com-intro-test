@@ -1,5 +1,6 @@
 # Test for vacancy Junior Javascript REACT client developer for Ethereum DeFi Blockchain project
 
+Small project to communicate with Metamask and show ETH address and balance.
 Web 3.0 has the potential to change the internet as we know it, forever.
 With a stunning design, connected to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, writing solidity code, and much more...
 

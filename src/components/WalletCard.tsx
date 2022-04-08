@@ -47,8 +47,8 @@ export const WalletCard = () => {
             </Button>
 
             <Box mt={4}>
-                <Text>{currentAccount}</Text>
-                <Text>{userBalance ? ` ${userBalance} ETH` : ''} </Text>
+                <Text color='white'>{currentAccount}</Text>
+                <Text color='white'>{userBalance ? ` ${userBalance} ETH` : ''} </Text>
             </Box>
         </Box>
     );
